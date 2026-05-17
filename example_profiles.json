@@ -1,0 +1,57 @@
+{
+  "home": {
+    "description": "Home network settings \u2014 high data usage OK",
+    "settings": [
+      {
+        "namespace": "global",
+        "key": "mobile_data",
+        "value": "1"
+      },
+      {
+        "namespace": "global",
+        "key": "mobile_data_roaming",
+        "value": "0"
+      },
+      {
+        "namespace": "global",
+        "key": "wifi_scan_always_enabled",
+        "value": "1"
+      },
+      {
+        "namespace": "global",
+        "key": "ble_scan_always_enabled",
+        "value": "1"
+      },
+      {
+        "namespace": "secure",
+        "key": "location_mode",
+        "value": "3"
+      }
+    ]
+  },
+  "roaming": {
+    "description": "Roaming profile \u2014 minimize data usage",
+    "settings": [
+      {
+        "namespace": "global",
+        "key": "mobile_data_roaming",
+        "value": "0"
+      },
+      {
+        "namespace": "global",
+        "key": "wifi_scan_always_enabled",
+        "value": "0"
+      },
+      {
+        "namespace": "global",
+        "key": "ble_scan_always_enabled",
+        "value": "0"
+      },
+      {
+        "namespace": "secure",
+        "key": "location_mode",
+        "value": "2"
+      }
+    ]
+  }
+}
